@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keubic’s - A New Flavor in Town</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8e1;
+        }
+        header {
+            background-color: #FF6347;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 3em;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+        .cta-button {
+            background-color: #FF6347;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .cta-button:hover {
+            background-color: #e5533b;
+        }
+        footer {
+            background-color: #FF6347;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Keubic’s</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Keubic’s</h2>
+        <p>Keubic’s is a vibrant and affordable food chain offering modern flavors with quick service. We believe in creating memorable food experiences that bring people together. Whether you’re grabbing a quick bite or enjoying a meal with friends, Keubic’s is here to satisfy your cravings!</p>
+        <p><a href="#menu" class="cta-button">Explore Our Menu</a></p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <p>From mouthwatering 🍔 burgers to delicious 🍕 pizzas, we offer a wide range of food options that will delight your taste buds. Our menu features:</p>
+        <ul>
+            <li>Signature 🍔 Burgers</li>
+            <li>Freshly Made 🍕 Pizzas</li>
+            <li>Crunchy 🍟 Fries & Snacks</li>
+            <li>Healthy 🥗 Salads</li>
+            <li>Refreshing 🍹 Drinks</li>
+        </ul>
+        <p><a href="#contact" class="cta-button">Contact Us for Orders</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.</p>
+        <p>Email: <a href="mailto:keubics.foodstartup@gmail.com">keubics.foodstartup@gmail.com</a></p>
+        <p>Phone: +91-XXXXXXXXXX</p>
+    </section>
+
+    <footer>
+        <p>Keubic’s Food Chain © 2025 | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
